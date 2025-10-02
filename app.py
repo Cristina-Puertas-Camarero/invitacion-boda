@@ -138,9 +138,9 @@ except:
 # Detalles del evento
 st.markdown("""
     <div class="details">
-        El próximo <strong>7 de noviembre de 2025</strong>, queremos compartir contigo un día que marcará nuestras vidas.<br><br>
+        El próximo <strong>7 de noviembre de 2025</strong>, queremos compartir contigo un día que será inolvidable para nosotros.<br><br>
         La <strong>ceremonia</strong> tendrá lugar a las <strong>15:00h</strong> en el <strong>Restaurante Piparra</strong>,<br>
-        un rincón especial en <em>El Puerto de Santa María</em>, cerca de casa, para celebrar el amor.<br><br>
+        un rincón especial en El Puerto de Santa María, cerca de casa, para celebrar el amor.<br><br>
         Tras el sí, brindaremos, comeremos y bailaremos juntos en el mismo lugar.<br>
         Será íntimo, será nuestro, y queremos que tú estés allí.
     </div>
