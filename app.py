@@ -169,31 +169,33 @@ try:
 except:
     st.warning("No se pudo cargar el vídeo 'ScreenRecording_10-02-2025 16-51-33_1.mov'.")
 
-# Confirmación de asistencia con botones
 st.markdown("""
     <div class="confirm">
         ¿Contamos contigo?<br><br>
-        Elige con quién confirmar tu asistencia:
+        Confirma tu asistencia con un clic:
     </div>
 """, unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
 with col1:
-    if st.button("Confirmar con Mariola"):
-        st.markdown("""
-            <script>
-                window.open("https://wa.me/34620598397?text=Hola%20Mariola,%20confirmo%20mi%20asistencia%20a%20la%20boda!", "_blank");
-            </script>
-        """, unsafe_allow_html=True)
+    st.markdown("""
+        <div style='text-align:center; margin-top:10px;'>
+            <a href="https://wa.me/34620598397?text=Hola%20Mariola,%20confirmo%20mi%20asistencia%20a%20la%20boda!" target="_blank" style="color:#f5f5dc; font-size:18px; text-decoration:none; border:1px solid #f5f5dc; padding:8px 16px; border-radius:5px; display:inline-block;">
+                Confirmar con Mariola
+            </a>
+        </div>
+    """, unsafe_allow_html=True)
 
 with col2:
-    if st.button("Confirmar con Miguel Ángel"):
-        st.markdown("""
-            <script>
-                window.open("https://wa.me/34669892187?text=Hola%20Miguel%20Ángel,%20confirmo%20mi%20asistencia%20a%20la%20boda!", "_blank");
-            </script>
-        """, unsafe_allow_html=True)
+    st.markdown("""
+        <div style='text-align:center; margin-top:10px;'>
+            <a href="https://wa.me/34669892187?text=Hola%20Miguel%20Ángel,%20confirmo%20mi%20asistencia%20a%20la%20boda!" target="_blank" style="color:#f5f5dc; font-size:18px; text-decoration:none; border:1px solid #f5f5dc; padding:8px 16px; border-radius:5px; display:inline-block;">
+                Confirmar con Miguel Ángel
+            </a>
+        </div>
+    """, unsafe_allow_html=True)
+
 
 
 
